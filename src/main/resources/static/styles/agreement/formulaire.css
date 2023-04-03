@@ -1,0 +1,80 @@
+
+.tableau-dans-form { 
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding:10px;*/
+	/*border: 1px solid #090;*/
+}
+
+.form-error { /* à faire disparaitre */
+	font: bold;
+	color: 	#f3f;
+	font-size: large;
+}
+
+.chp_saisie, .dropdown, .choixderoulant, .checkbox { 
+	background-color: #EBEBEB;
+	border: 1px solid #666;
+	font:100% verdana, tahoma,arial,helvetica,"bitstream vera sans",sans-serif;
+	color:#000;
+}
+
+.chp_saisieERR, .dropdownERR, .choixderoulantERR, .checkboxERR { 
+	background-color: #e6f2fc;
+	border: 1px solid #f00;
+	font:100% verdana, tahoma,arial,helvetica,"bitstream vera sans",sans-serif;
+	color:#f00;
+}
+
+.sizeXXS	{ width: 50px;}
+.sizeXS		{ width: 75px;}
+.sizeS		{ width: 100px;}
+.sizeM		{ width: 150px;}
+.sizeL		{ width: 200px;}
+.sizeXL		{ width: 250px;}
+.sizeXXL	{ width: 300px;}
+
+.bouton-submit {
+	margin: 5px 0 px 50px;
+	background-color: #ddd;
+	border-right:	1px solid #304860;
+	border-bottom:	1px solid #304860;
+	border-left:	1px solid #90a0c0;
+	border-top:		1px solid #90a0c0;
+	font-size:120%;
+	color:#000;
+	width: 110px;
+	text-align:center;
+	padding: 3px 6px 3px 6px;
+}
+.bouton-submit:hover {
+	background-color: #fff;
+}
+.bouton-submit a,
+.bouton-submit a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+.help { 
+	
+}
+
+.messageErrorForm {
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+    background: url("../../img/information.png") no-repeat scroll 5px 5px #F1F6EC;
+    border: 1px solid #B0CE94;
+    color: #3E4934;
+    line-height: 100%;
+    padding: 5px 5px 5px 25px;
+    
+    background-color: #F3DDDD;
+    background-image: url("../../img/exclamation.png");
+    border-color: #DEB7B7;
+    color: #281B1B;
+
+    margin-top:5px;
+    margin-bottom:5px;
+}

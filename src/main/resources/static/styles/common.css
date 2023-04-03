@@ -1,0 +1,563 @@
+html {
+	font-size: 100%; /* Voir -> Note 1 � la fin de la feuille de styles. */
+}
+
+body {
+	margin: 0 auto;
+	margin-top:10px;
+	width: 100%;
+	background: none repeat scroll 0 0 #E8ECF1;
+    color: #586070;
+    font: 12px tahoma,arial,verdana,tahoma,sans-serif;
+    position: relative;
+	
+/*	background: white;*/
+/*	background:url(../img/bottom_bg.gif) repeat scroll 0 0 #FFF;*/
+}
+
+#wrapper_borders {
+	-moz-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+    background: none repeat scroll 0 0 #DBE3EA ;
+    border: 1px solid #CBD6DF;
+    margin: 20px auto 0;
+    padding: 6px;
+    margin: 0 auto;
+    min-width: 980px;
+    width: 92%;
+    
+}
+
+a{
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+
+#header{
+	height : 100px;
+	background:#fff url(../img/banniere_trans.png) top left no-repeat;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+    border-bottom: 0 none;
+    min-height: 80px;
+    font: 12px tahoma,arial,verdana,tahoma,sans-serif; 
+}
+
+
+#TitleHeader{
+	border-bottom: 1px solid #4f688b;
+	margin-left: 820px;
+	padding-top:20px;
+	padding-bottom:2px;
+	font:  200% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	color:#104068;
+}
+
+#TitleHeaderMini{
+	
+	font:  60% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+}
+
+#SousTitreHeader{
+
+	margin-left: 820px;
+	padding-right: 20px;
+	font:  110% Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	color:#104068;
+}
+
+#SousTitreHeader2{
+
+	margin-left: 820px;
+	padding-right: 20px;
+	font:  110% Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	color:red;
+}
+
+
+#main-menu{ /* div d'encadrement */
+	background: #fff url(../img/topbg.gif) top repeat-x ;
+	font-size: 1.2em;
+}
+
+#mainMenu {
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+	font-variant:small-caps;
+	overflow:hidden;
+	margin-left:5px;
+	margin-right:5px;
+	padding:3px 8px;
+}
+
+#mainMenu ul {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#mainMenu li {
+	float:left;
+	margin-left: 10px;
+}
+
+#mainMenu a{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#mainMenu a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.mainMenuRight a{
+	color:#98BF0E;
+}
+
+#main-body{
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	background:url(../img/bottom_bg.gif) repeat scroll 0 0 #FFF;
+/*	margin: 5px;*/
+	padding-top: 1px;
+}
+
+/* Concerne la div barre d'info */
+
+#info{
+
+	border-bottom: 1px solid #aaa;
+	padding: 5px;
+	font:100% verdana, tahoma, arial, helvetica, sans-serif;
+	color:#000;
+}
+
+
+#tabsForms{
+	margin: 5px 10px 10px 10px;
+	padding-bottom: 5px;
+}
+
+/* affichage dans les onglets */
+
+#tab-display { /* int�rieur du tab */
+	background:#fff ;
+	background-color: #fff;
+	padding : 10px;
+	border-left: 1px solid #dae0d2;
+	border-right: 1px solid #dae0d2 ;
+	border-bottom: 1px solid #dae0d2;
+	
+}
+
+table { 
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+
+#tab-display table{  /*s'applique a tous les <table> contenus dans un div "Tab-display" !!*/ 
+/*	border-top: 1px solid #104068;*/
+/*	border-right: 1px solid #104068;*/
+/*	border-left: 1px solid #104068;*/
+	
+	border: 1px solid #104068;
+    border-collapse: separate;
+    border-spacing: 1px;
+    /*margin-bottom: 0.7em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    */
+    margin:0px 10px auto auto;
+    width: 100%;
+}
+
+#tab-display th{  
+	padding: 3px;
+/*	margin:0;*/
+	font-weight:bold;
+	/*color: #fff;
+	background-color:#104068;
+	*/text-align: left;
+/*	border-bottom: 1px solid #104068;*/
+/*	border-right: 1px solid #104068;	*/
+	 background: #C9D5DF;
+    color: #4C5F71;
+}
+#tab-display tr.row1{
+	background-color: #F3F7FA;
+}
+#tab-display tr.row2{
+	background-color: #E4EBF0;
+}
+
+table.infosthesis
+ { text-align: left;
+ font-family: Verdana;
+ font-weight: normal;
+ font-size: 11px;
+ color: #404040;
+ width: 100px;
+ background-color: #fafafa;
+ border: 1px #d79900 solid;
+ border-collapse: collapse;
+ border-spacing: 0px;}
+ 
+#tab-display td	{  
+	/*background-color:#F8F8F8;	
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #104068;
+*/
+}
+
+#tab-display td.price	{
+	text-align: right;
+}
+
+#tab-display td.right	{	text-align: right;	}
+#tab-display td.left	{	text-align: left;	}
+#tab-display td.center	{	text-align: center;	}
+
+
+#tab-display table.noborder,
+#tab-display table.noborder td,
+#tab-display table.noborder th {
+/*	border: 0px none;*/
+}
+
+#tab-display a{
+	color: #104068;
+	text-decoration: none;
+}
+#tab-display a:hover{
+	color: #104068;
+	text-decoration: underline;
+}
+
+/*.clear, hr {*/
+/*	clear:both;*/
+/*	display:block;*/
+/*	font-size:1px;*/
+/*	height:10px;*/
+/*	line-height:10px;*/
+/*	margin:0pt;*/
+/*	padding:0pt;*/
+/*}*/
+
+/* Concerne la div d'affichage de la liste des offres */
+
+#listoffers{
+	font:120% tahoma,arial,helvetica,"bitstream vera sans",sans-serif;
+	text-align:center;
+}
+
+#listUserForms{
+	color: #fff;
+	background-color: #2080d0;
+	border: 1px solid #000;
+	width: 600px;
+	margin: 5px auto 5px auto;
+	padding: 5px;
+}
+
+#listUserForms a{
+	color: #fff;
+	text-decoration: none;
+}
+#listUserForms a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#divError{
+	color: #fff;
+	background-color: #2080d0;
+	/*border: 1px solid #000;*/
+	border: 2px solid red;
+	width: 800px;
+	margin: 5px auto 5px auto;
+	padding: 5px;
+}
+
+#divError a{
+	color: #fff;
+	text-decoration: none;
+}
+#divError a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#philosophy{
+	font:120% tahoma,arial,helvetica,"bitstream vera sans",sans-serif;
+	text-align:center;
+	color: #fff;
+	background-color: #93AABF;
+	border: 1px solid #000;
+	width: 1000px;
+	margin: 5px auto 5px auto;
+	padding: 5px;
+}
+
+#disclaimer{
+	font:120% tahoma,arial,helvetica,"bitstream vera sans",sans-serif;
+	text-align:center;
+	color: #820000;
+	background-color: #BDDBF4;
+	border: 1px solid #000;
+	width: 1000px;
+	margin: 5px auto 5px auto;
+	padding: 5px;
+		
+}
+
+#philosophy a{
+	color: #820000;
+	text-decoration: none;
+}
+
+#philosophy a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+img {
+border:0 none;
+}
+
+
+
+#progressBar {
+padding-top: 2px;
+padding-left: 45px;
+}
+
+#progressBarText {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: #969696;
+padding-left: 5px;
+padding-left: 350px;
+}
+
+#progressBarBox {
+width: 400px;
+height: 20px;
+border: 0px;
+border-style: solid;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+}
+
+#progressBarBoxContent {
+background-color: #969696;
+height: 20px;
+}
+
+#progressBarSuccesfull {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: #969696;
+padding-left: 5px;
+}
+
+.simple_overlay { 
+     
+    /* must be initially hidden */ 
+    display:none; 
+     
+    /* place overlay on top of other elements */ 
+    z-index:10000; 
+     
+    /* styling */ 
+    background-color:white;
+    opacity:0.9;
+     
+    width:32px;     
+    /*min-height:200px; */
+    /*border:1px solid #666; */
+     
+    /* CSS3 styling for latest browsers */ 
+    -moz-box-shadow:0 0 20px 5px #FFFFFF; 
+    -webkit-box-shadow: 0 0 20px #FFFFFF;     
+}
+
+
+.modal {
+		background-color:#fff;
+		display:none;
+		width:350px;
+		padding:15px;
+		text-align:left;
+		border:2px solid #333;
+	
+		opacity:0.8;
+		-moz-border-radius:6px;
+		border-radius:6px;
+		-webkit-border-radius:6px;
+		-moz-box-shadow: 0 0 50px #ccc;
+		-webkit-box-shadow: 0 0 50px #ccc;
+		box-shadow: 0 0 50px #ccc;
+	}
+	
+	.modal h2 {
+		background:url(../img/warning.png) 0 50% no-repeat;
+		margin:0px;
+		padding:10px 0 10px 45px;
+		border-bottom:1px solid #333;
+		font-size:20px;
+	}
+
+
+div#a1
+{
+width:600px;
+float:left;
+
+}
+div#a2
+{
+padding-top: 2px ;
+margin-left:610px;
+
+}
+div#global{
+	width:100%;
+	margin: 0 auto;
+}
+ hr {
+ clear:both;
+ border:none;
+ height: 20px;
+ }
+
+#facebox {
+
+	/* overlay is hidden before loading */
+	display:none;
+
+	/* standard decorations */
+	width:500px;
+	border:10px solid #666;
+
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	border:10px solid rgba(82, 82, 82, 0.698);
+
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius:8px;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+#facebox div {
+	padding:10px;
+	border:1px solid #3B5998;
+	background-color:#fff;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif
+}
+
+#facebox h2 {
+	margin:-11px;
+	margin-bottom:0px;
+	color:#fff;
+	background-color:#6D84B4;
+	padding:5px 10px;
+	border:1px solid #3B5998;
+	font-size:20px;
+}
+
+
+#facebox div.innerFacebox {
+	
+	margin:5px;
+	border:1px solid #3B5998;
+	background-color:#fff;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; /* 3 */
+	font-size: .7em; /* -> 4 */
+	line-height: 1.25; /* -> 5 */
+	text-align: center;
+}
+
+
+.faceboxLink {
+	color: blue;
+}
+
+#inscriptionTable{
+	-moz-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+	margin:auto auto 20px;
+	background-color: #f7f8f9;
+	border-left:1px solid #fde9df;
+	border-top:1px solid #fde9df;
+	border-bottom:0;
+	border-right:0;
+	font-family:Arial,Verdana,Helvetica,sans-serif;
+	font-size: 1em;
+	
+}
+
+#inscriptionTable th{
+	text-align: center;
+	font-weight: bold;
+	font-variant:small-caps;
+	font-size: 0.9em;
+	border-right:1px solid #fde9df;
+	border-left:0;
+	border-top:0;
+	border-bottom:1px solid #fde9df;
+}
+
+#inscriptionTable td{
+	text-align: center;
+	padding:10px;
+	border-right:1px solid #fde9df;
+	border-left:0;
+	border-top:0;
+	border-bottom:1px solid #fde9df;
+	
+	
+}
+
+.maintitle {
+ -moz-border-radius: 4px 4px 0 0;
+ border-radius: 4px 4px 0 0;
+    border-bottom: 0 none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 6px 6px 6px 8px !important;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+    background: #3C6D97;
+    color: #D4DEE8;
+}
+
+.maintitle h2{
+ clear: both;
+}
+
+.mainbox {
+	margin: 0 auto 15px;
+    padding: 15px;
+	text-align: center;
+	background-color: #E4EBF0;
+	overflow: auto;	
+}

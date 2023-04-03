@@ -1,0 +1,35 @@
+fieldset { 
+	border: 2px solid #104068;
+	padding: 10px;
+	/*padding: 10px 20px 10px 20px;*/
+	margin: 5px;
+}
+
+legend { 
+	/*border: 2px solid #2080D0;*/
+	/*font: bold 120% arial,helvetica,"bitstream vera sans",sans-serif;*/
+	font: 150% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-variant: small-caps;
+	color: #104068;
+	padding: 5px 20px;
+	margin-left: -20px;
+}
+
+fieldset.mainField { 
+	border: 0px none;
+	border-top: 1px solid #616161;
+	/*padding: 10px 0px;*/
+	/*border: 2px solid #820000;
+	padding: 20px 30px 20px 30px;
+	margin: 5px;*/
+}
+
+legend.mainLegend { 
+	/*border: 2px solid #820000;*/
+	font: 160% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	color: #616161;
+	/*color: #820000;*/
+	padding: 5px 20px;
+	margin-left: 20px;
+	/*margin-left: -20px;*/
+}

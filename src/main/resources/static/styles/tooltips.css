@@ -1,0 +1,61 @@
+
+/* simple css-based tooltip */ 
+div.tooltip { 
+    background-color:#000; 
+    border:1px solid #fff; 
+    padding:10px 15px; 
+    width:200px; 
+    display:none; 
+    color:#fff; 
+    text-align:left; 
+    font-size:12px; 
+	z-index:10000; 
+    /* outline radius for mozilla/firefox only */ 
+    -moz-box-shadow:0 0 10px #000; 
+    -webkit-box-shadow:0 0 10px #000; 
+}
+
+
+.tooltip2 {
+	display:none;
+	background:transparent url(../img/black_arrow.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+
+/* override the arrow image of the tooltip */
+.tooltip2.bottom {
+	background:url(../img/black_arrow_bottom.png);
+	padding-top:40px;
+	height:55px;
+}
+
+.tooltip2.bottom {
+	background:url(../img/black_arrow_bottom.png);
+}
+
+.tooltip3 {
+	display:none;
+	background:transparent url(../img/black_arrow_big.png);
+	font-size:12px;
+	height:154px;
+	width:321px;
+	padding:25px;
+	color:#fff;	
+}
+
+/* override the arrow image of the tooltip */
+.tooltip3.bottom {
+	background:url(../img/black_arrow_big_bottom.png);
+	padding-top:40px;
+	height:216px;
+}
+
+.tooltip3.bottom {
+	background:url(../img/black_arrow_big_bottom.png);
+}
+
+

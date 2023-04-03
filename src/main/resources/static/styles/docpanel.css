@@ -1,0 +1,103 @@
+
+
+.nv-panel-closebar:hover {
+	/*background-position:0 -13px;*/
+	text-decoration:none;
+}
+
+.nv-panel-closebar,
+.nv-panel-closebar:hover {
+border:0 none;
+text-decoration:none;
+}
+
+a:hover {
+color:#f60;
+}
+
+.nv-panel-closebar, .nv-panel-closebar:hover {
+border:0 none;
+text-decoration:none;
+}
+	
+	
+.nv-panel-closebar, .nv-panel-closebar:hover {
+border:0 none;
+text-decoration:none;
+}
+
+.nv-panel-closebar {
+
+	cursor:pointer;
+	display:block;
+	height:13px;
+	/*line-height:13px;*/
+	/*text-align:center;*/
+}
+
+#docs {
+	border-right:	1px solid #304860;
+	border-bottom:	1px solid #304860;
+	border-left:	1px solid #90a0c0;
+	border-top:		1px solid #90a0c0;
+	background:#fff url(../img/fond_form.png) ;
+	color:#000;
+	padding:5px;
+	text-align: center;
+	overflow:hidden;
+	margin-top:3px;
+	z-index: 1001;
+	position: absolute;
+	}
+
+#docs ul {
+	float:left;
+	list-style:none;
+	text-align:left;
+	}
+
+#docs li {
+	float:none; /* annulation du float left */
+	/*margin-left: 20px;*/
+}
+
+
+#docs ul.categorie {
+	float:left;
+	border-left: 1px solid #ccc;
+	margin:0 0 0 10px;
+	/*padding:3px;*/
+	list-style:none;
+	text-align:left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: disc;
+	width:200px;
+	}
+	
+#docs ul.categorie li {
+	float:none; /* annulation du float left */
+	margin-left: 20px;
+}
+#docs p.title-ul { 
+	text-align:left;   
+	font-weight: bold;
+	margin:0;
+	overflow:hidden;
+}
+
+
+
+
+
+#docs a{
+	color: #000;
+	/*font-size:130%;*/
+	text-decoration: none;
+}
+#docs a:hover{
+	color: #f90;
+	text-decoration: underline;
+}
+
+

@@ -1,0 +1,3 @@
+a:hover {cursor:pointer}
+#en-tete a:active {background-position:0 -500px}
+#en-tete a:active span {background-position:100% -500px}

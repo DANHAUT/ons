@@ -1,0 +1,212 @@
+
+.ConteneurForm {	
+	position:relative;
+	margin:0 auto;
+	
+	padding: 3px;
+	height:auto;
+
+}
+
+.EntiteLigne { 
+	padding: 3px;
+	margin:0 auto;
+}
+.EntiteLigneFige { 
+
+}
+.DebutDeLigne { 
+
+	float:left;
+	text-align:right;
+	height:auto;
+	width:210px;
+	padding-top:3px;
+	border: 0px solid #104068;
+}
+.SuiteDeLigne1 { 
+	position: relative;
+	color: #104068;
+	height:auto;
+	margin-left:220px;
+	width:auto;
+	
+}
+
+.DebutDeLigneS { 
+
+	float:left;
+	text-align:right;
+	height:auto;
+	width:115px;
+	padding-top:3px;
+	border: 0px solid #104068;
+}
+.SuiteDeLigneS1 { 
+	position: relative;
+	color: #104068;
+	height:auto;
+	margin-left:125px;
+	width:auto;
+	
+}
+
+.DebutDeLigneL { 
+	clear:left;
+	float:left;
+
+	text-align:right;
+	height:auto;
+	width:280px;
+	border: 0px solid #104068;
+}
+.SuiteDeLigne1L { 
+	position: relative;
+	color: #104068;
+	height:auto;
+	margin-left:290px;
+	width:auto;
+}
+.DebutDeLigneM { 
+	clear:left;
+	float:left;
+
+	text-align:right;
+	height:auto;
+	width:250px;
+	border: 0px solid #00f;
+}
+.SuiteDeLigne1M { 
+	position: relative;
+	color: #104068;
+	height:auto;
+	margin-left:260px;
+	width:auto;
+}
+
+.DivInput { 
+	height:auto;
+	padding-left:8px;
+	padding-bottom:3px;
+	border-left: 1px solid #104068;
+}
+.DivError {
+	clear: left;
+	height:auto;
+	padding-left:20px;
+	padding-bottom:3px;
+	border-left: 1px solid #104068;
+}
+.DebutDeLigne span { /* utilis� pour les libell�s de champs */
+	color: #000;
+}
+
+div#divTabInfo{
+	-moz-border-radius:4px 4px 4px 4px;
+	-moz-box-shadow:0 0 6px #DDDDDD;
+	text-align: center;
+    padding:5px;
+    margin: 0px 5px 5px 5px; 
+	margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    font:  110% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+    font-variant: small-caps;
+
+	background-color:#FFFE36;
+	border:1px solid #E1E16D;
+	color:#000000;
+	height:15px;
+	padding:4px 0px;
+}
+/*
+.divTabInfo{
+	text-align: center;
+    border:1px solid #CF7000;
+    color:#CF7000 ;
+    background-color:#E6E6E6;
+    padding:5px;
+    margin: 0px 5px 5px 5px; 
+	margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+*/
+div#divTabInfoError{
+	-moz-border-radius:4px 4px 4px 4px;
+	-moz-box-shadow:0 0 6px #DDDDDD;
+	text-align: center;
+    border:1px solid #CF7000;
+    color:#CF7000 ;
+    background-color:#E6E6E6;
+    padding:5px;
+    margin: 0px 5px 5px 5px; 
+	margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font:  110% bold Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+    font-variant: small-caps;
+
+	background-color:#FFFE36;
+	border:1px solid #E1E16D;
+	color:#000000;
+	padding:4px 0px;
+}
+
+#notice {
+-moz-border-radius:5px 5px 5px 5px;
+background:url(../img/bottom_bg.gif) repeat scroll 0 0 #FFF;
+border: 7px solid;
+border-color: #394F66;
+color:#394F66;
+margin:auto auto 30px;
+padding: 20px;
+text-align:center;
+width:70%;
+}
+
+div#loadingicon{
+	
+	text-align: center; 
+	margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+
+}
+
+div#encadre {
+-moz-border-radius:5px 5px 5px 5px;
+background:url(../img/bottom_bg.gif) repeat scroll 0 0 #FFF;
+color:#394F66;
+margin:auto auto 5px;
+padding: 20px;
+border: 7px solid;
+border-color: #104068;
+text-align:center;
+width:80%;
+}
+
+div#encadre2 {
+-moz-border-radius:5px 5px 5px 5px;
+background:url(../img/bottom_bg.gif) repeat scroll 0 0 #FFF;
+color:#394F66;
+margin:auto auto 5px;
+border: 7px solid;
+border-color: #104068;
+text-align:center;
+width:80%;
+}
+
+div#diaporama {
+-moz-border-radius:5px 5px 5px 5px;
+
+color:#394F66;
+margin:auto auto 5px;
+padding: 20px;
+
+text-align:center;
+width:90%;
+}
+
+
+

@@ -1,0 +1,117 @@
+
+.ConteneurForm {	
+	position:relative;
+	/*margin-left:40px;*/
+	
+	padding: 3px;
+	height:auto;
+	/*border: 1px dashed #000;*/
+}
+
+.EntiteLigne { 
+		padding: 3px;
+		/*border: 1px solid #000;*/
+}
+.EntiteLigneFige { 
+		/*border: 1px solid #0f0;*/
+		/*background-color:#e0e0d0;*/
+}
+.DebutDeLigne { 
+	clear:left;
+	float:left;
+	text-align:right;
+	height:auto;
+	width:120px;
+	/*width:150px;*/
+	/*background-color:#e6d6e6;*/
+	border: 0px solid #00f;
+		/*border: 1px solid #00f;*/
+}
+.SuiteDeLigne1 { 
+	position: relative;
+	color: #264954;
+	height:auto;
+	margin-left:130px;
+	/*margin-left:160px;*/
+	width:auto;
+	/*border-left: 1px solid #f00;*/
+}
+.DebutDeLigneL { 
+	clear:left;
+	float:left;
+
+	text-align:right;
+	height:auto;
+	width:280px;
+	/*background-color:#e6d6e6;*/
+	border: 0px solid #264954;
+		/*border: 1px solid #00f;*/
+}
+.SuiteDeLigne1L { 
+	position: relative;
+	color: #264954;
+	height:auto;
+	margin-left:290px;
+	width:auto;
+	/*border-left: 1px solid #f00;*/
+}
+.DebutDeLigneM { 
+	clear:left;
+	float:left;
+
+	text-align:right;
+	height:auto;
+	width:210px;
+	/*background-color:#e6d6e6;*/
+	border: 0px solid #264954;
+		/*border: 1px solid #00f;*/
+}
+.SuiteDeLigne1M { 
+	position: relative;
+	color: #264954;
+	height:auto;
+	margin-left:220px;
+	width:auto;
+	/*border-left: 1px solid #f00;*/
+}
+
+.DivInput { 
+	height:auto;
+	padding-left:8px;
+	padding-bottom:9px;
+	border-left: 1px solid #264954;
+}
+.DivError {
+	height:auto;
+	padding-left:20px;
+	padding-bottom:3px;
+	border-left: 1px solid #264954;
+}
+
+.SpanError {
+	height:auto;
+	padding-left:10px;
+	padding-bottom:3px;
+}
+
+.DebutDeLigne span { /* utilisé pour les libellé de champs */
+	color: #264954;
+}
+
+/*
+.PageCoupeeEnDeuxGauche { 
+	position:relative;
+	float:left;
+	clear:left;
+
+	height:auto;
+	width:49%;
+	border: 1px solid #f00;
+}
+.PageCoupeeEnDeuxDroite { 
+	float:left;
+	height:auto;
+	width:49%;
+	border: 1px solid #f00;
+}
+*/
